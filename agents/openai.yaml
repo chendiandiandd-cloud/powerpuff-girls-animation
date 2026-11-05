@@ -1,0 +1,13 @@
+interface:
+  display_name: 飞天小女警动画风格
+  short_description: 将剧本、角色图、分镜与视频提示词转成几何平面英雄动画
+  default_prompt: 使用 $powerpuff-girls-animation 将我提供的剧本或图片转换成这种几何平面英雄动画，并保留角色身份与剧情事实。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
